@@ -1,4 +1,4 @@
-package com.rs.tution;
+package com.rs.tution.entity;
 
 import lombok.Data;
 
