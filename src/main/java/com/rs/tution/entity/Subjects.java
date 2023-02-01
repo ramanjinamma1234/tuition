@@ -1,4 +1,4 @@
-package com.rs.tution;
+package com.rs.tution.entity;
 
 import lombok.Data;
 
@@ -7,7 +7,7 @@ import javax.persistence.Id;
 
 @Entity
 @Data
-public class subjects {
+public class Subjects {
     @Id
     private int id;
     private String name;
