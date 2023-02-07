@@ -1,0 +1,16 @@
+package com.rs.tution.web.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class FacultyRegistrationDto {
+    private String firstName;
+    private String lastName;
+    private String email;
+    private String password;
+    private String phone;
+}
